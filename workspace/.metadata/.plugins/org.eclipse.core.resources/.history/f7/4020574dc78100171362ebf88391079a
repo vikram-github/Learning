@@ -1,0 +1,22 @@
+public class Fibonacci {
+
+	static int val = 0;
+	
+	public static void main(String[] args) {
+		System.out.println(printFibo(10));
+	}
+
+	private static int printFibo(int n) {
+		
+		if (n <= 0) {
+			return 0;
+		}
+		if (n == 1) {
+			System.out.println(val);
+			return 1;
+		}
+		val = printFibo(n - 1) + printFibo(n - 2);		
+		return val;
+
+	}
+}

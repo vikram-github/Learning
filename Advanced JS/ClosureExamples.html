@@ -1,0 +1,76 @@
+<script>
+    /*
+       Closures are functions that refer to independent (free) variables (variables that are used locally, but defined in an enclosing scope). In other words, these functions 'remember' the environment in which they were created.
+       
+       Situations where you might want to do this are particularly common on the web. Much of the code we write in web JavaScript is event-based — we define some behavior, then attach it to an event that is triggered by the user (such as a click or a keypress). Our code is generally attached as a callback: a single function which is executed in response to the event.
+       
+    */
+    
+    function init(){
+        var name = "Vikram";
+        function displayName(){ // Display name is a closure function or inner function 
+            window.alert(name); //displayName() has no local variables of its own, however it has access to the variables of                    //outer functions and so can use the variable name declared in the parent function.
+        }
+        displayName();
+    }
+    var myInit = init;
+    myInit();
+    
+    
+    function add(x){
+        return function(y){
+            return x+y;
+        }
+    }
+    
+    var add5 = add(5);
+    alert(add5(5)); // This will print 10;
+    
+    
+    function makeSizer(size) {
+        return function() {
+            document.body.style.fontSize = size + 'px';
+        };
+    }
+
+    var size12 = makeSizer(12);
+    var size14 = makeSizer(14);
+    var size16 = makeSizer(16);
+    
+    // Emulating private methods with closures
+    
+    //Here's how to define some public functions that can access private functions and variables, using closures which is also known as the module pattern:
+    
+    var counter = (function(){
+       var count = 0;
+        function changeCounterValue(x){
+            count = x;
+        }
+        
+        return {
+            increment : function(){
+                changeCounterValue(++count);
+            },
+            decrement : function(){
+              changeCounterValue(--count);  
+            },
+            value : function(){
+                return count;
+            }
+            
+        }
+    })();
+    
+    alert(counter.value());
+    counter.increment();
+    alert(counter.value());
+    counter.decrement();
+    alert(counter.value());
+    
+    
+    /* Performance considerations
+    It is unwise to unnecessarily create functions within other functions if closures are not needed for a particular task, as it will negatively affect script performance both in terms of processing speed and memory consumption.
+
+    For instance, when creating a new object/class, methods should normally be associated to the object's prototype rather than defined into the object constructor. The reason is that whenever the constructor is called, the methods would get reassigned (that is, for every object creation).
+    */
+</script>

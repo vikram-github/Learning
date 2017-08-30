@@ -1,0 +1,49 @@
+<script>
+    /*
+        All JavaScript objects inherit the properties and methods from their prototype. Objects created using an object literal, or with new Object(), inherit from a prototype called Object.prototype. Objects created with new Date() inherit the Date.prototype. The Object.prototype is on the top of the prototype chain.
+        
+        All objects in JavaScript are descended from Object; all objects inherit methods and properties from Object.prototype, although they may be overridden (except an Object with a null prototype, i.e. Object.create(null)). For example, other constructors' prototypes override the constructor property and provide their own toString() methods. Changes to the Object prototype object are propagated to all objects unless the properties and methods subject to those changes are overridden further along the prototype chain.
+    */
+    
+    
+    var Person = function() {
+        this.message = "Hello I am person";
+    }
+    
+    Person.prototype.greet = function(){
+        alert(this.message + " and my name is " + this.name);
+    }
+    
+    var Employee = function(name, title){
+        Person.call(this); // If this is not called the variables of Person will not be initialized and so accessing any                         prototype methods will have messaged as 'undefined'
+        this.name = name;
+        this.title = title;        
+    }
+    
+    Employee.prototype = Object.create(Person.prototype);
+    Employee.prototype.constructor = Employee;
+    
+    Employee.prototype.greet = function(){
+        alert("This is from Empl and my name is " + this.name);        
+    }
+    
+    var Customer = function(name){
+        Person.call(this); // Calling the parent's constructor initializes the object itself, this is done with every                           instantiation (you can pass different parameters each time you construct it).
+        this.name = name;
+    }
+    
+    Customer.prototype = Object.create(Person.prototype); //Setting the prototype to an instance of the parent initializes                                                         the prototype chain (inheritance), this is done only once                                                             (since the prototype object is shared).
+    Customer.prototype.constructor = Customer;
+    
+    Customer.prototype.greet = function(){
+        alert("This is from Cust and my name is " + this.name);        
+    }
+    
+    var emp = new Employee("Vikram", "Developer");
+    var cust = new Customer("Cisco");
+    
+    emp.greet();
+    cust.greet();
+    
+    
+</script>

@@ -1,0 +1,41 @@
+<html>
+    <script>
+        /*
+            They all attach this into function (or object) and the difference is in the function invocation (see below).
+            call attaches this into function and executes the function immediately:
+        */
+        var person = {
+            name : "Vikram",
+            hello : function (thing){
+                console.log(this.name + "says hello" + thing);
+            }
+        }
+        person.hello.call(person, "world");
+        
+        // bind attaches this into function and it needs to be invoked separately like this:
+        
+        var person1 = {
+            name : "Vikram",
+            hello : function (thing){
+                console.log(this.name + "says hello" + thing);
+            }
+        }
+        var helloFunc = person1.hello.bind(person, "Bind World"); // or person1.hello.bind(person);
+        helloFunc(); // helloFunc("world");
+        
+        // apply is similar to call except that it takes an array-like object instead of listing the arguments out one at a time:
+        
+        function personContainer(){
+            var person = {
+                name : "Vikram",
+                hello : function(){
+                    console.log(this.name + "says Hello" + arguments[1]);
+                }
+            }
+            person.hello.apply(person, arguments);
+        }
+        
+        personContainer("Arg1", "Arg2");
+        
+    </script>
+</html>

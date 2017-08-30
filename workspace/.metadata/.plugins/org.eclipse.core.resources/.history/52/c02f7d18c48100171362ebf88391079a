@@ -1,0 +1,19 @@
+
+public class PrintAllPermutationOfStrings {
+
+	public static void main(String[] args) {
+		String name = "Vikram";
+		
+	}
+	
+	void per mutation(String str, String prefix) {
+		6 if (str.length() == e) {
+		7 System .out.println(prefix)j
+		8 } else {
+		9 fo r (int i = ej i < str.length()j i++) {
+		Ie String rem = str.substring(e, i) + str.substring( i + 1)j
+		11 permutation(rem, prefix + str.charAt( i »j
+		12 }
+		13 }
+		14 }
+}

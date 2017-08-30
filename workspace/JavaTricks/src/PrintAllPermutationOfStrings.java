@@ -1,0 +1,20 @@
+public class PrintAllPermutationOfStrings {
+
+	public static void main(String[] args) {
+		String name = "Vikram";
+		permutation(name, "");
+	}
+
+	private static void permutation(String val, String prefix) {
+		if (val.length() == 0) {
+			System.out.println(prefix);
+		} else {
+			for (int i = 0; i < val.length(); i++) {
+				String rem = val.substring(0, i) + val.substring(i + 1);
+				System.out.println("Rem " + rem);
+				permutation(rem, prefix + val.charAt(i));
+			}
+		}
+
+	}
+}

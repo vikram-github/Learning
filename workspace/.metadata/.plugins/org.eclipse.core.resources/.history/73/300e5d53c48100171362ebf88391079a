@@ -1,0 +1,12 @@
+
+public class PrintAllPermutationOfStrings {
+
+	public static void main(String[] args) {
+		String name = "Vikram";
+		
+	}
+	
+	private void permutation(String val, String prefix){
+		
+	}
+}

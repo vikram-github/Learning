@@ -1,0 +1,820 @@
+Diagnostics file initialized on Fri Aug 25 14:01:48 IST 2017
+================================================================================================
+AVAILABLE BUNDLES AND SERVICES (712)
+================================================================================================
+Bundle [0]: org.eclipse.osgi, state: [32], version: 3.10.0.v20140606-1445
+Bundle [1]: org.eclipse.osgi.compatibility.state, state: [4], version: 1.0.0.v20140403-1907
+Bundle [2]: org.eclipse.equinox.simpleconfigurator, state: [32], version: 1.1.0.v20131217-1203
+Bundle [3]: com.ibm.icu, state: [32], version: 52.1.0.v201404241930
+Bundle [4]: com.jcraft.jsch, state: [4], version: 0.1.50.v201403120620
+Bundle [5]: com.sun.el, state: [4], version: 2.2.0.v201303151357
+Bundle [6]: javaewah, state: [4], version: 0.7.9.v201401101600
+Bundle [7]: javax.annotation, state: [4], version: 1.2.0.v201401042248
+Bundle [8]: javax.el, state: [4], version: 2.2.0.v201303151357
+Bundle [9]: javax.inject, state: [4], version: 1.0.0.v20091030
+Bundle [10]: javax.servlet, state: [4], version: 3.0.0.v201112011016
+Bundle [11]: javax.servlet.jsp, state: [4], version: 2.2.0.v201112011158
+Bundle [12]: javax.xml, state: [4], version: 1.3.4.v201005080400
+Bundle [13]: org.apache.ant, state: [4], version: 1.9.2.v201404171502
+Bundle [14]: org.apache.batik.css, state: [4], version: 1.7.0.v201011041433
+Bundle [15]: org.apache.batik.util, state: [4], version: 1.7.0.v201011041433
+Bundle [16]: org.apache.batik.util.gui, state: [4], version: 1.7.0.v200903091627
+Bundle [17]: org.apache.commons.codec, state: [4], version: 1.6.0.v201305230611
+Bundle [18]: org.apache.commons.compress, state: [4], version: 1.6.0.v201310281400
+Bundle [19]: org.apache.commons.logging, state: [4], version: 1.1.1.v201101211721
+Bundle [20]: org.apache.felix.gogo.command, state: [32], version: 0.10.0.v201209301215
+Bundle [21]: org.apache.felix.gogo.runtime, state: [32], version: 0.10.0.v201209301036
+Bundle [22]: org.apache.felix.gogo.shell, state: [32], version: 0.10.0.v201212101605
+Bundle [23]: org.apache.jasper.glassfish, state: [4], version: 2.2.2.v201205150955
+Bundle [24]: org.apache.lucene.analysis, state: [4], version: 3.5.0.v20120725-1805
+Bundle [25]: org.apache.lucene.core, state: [4], version: 3.5.0.v20120725-1805
+Bundle [26]: org.eclipse.ant.core, state: [8], version: 3.3.0.v20140518-0042
+Bundle [27]: org.eclipse.ant.launching, state: [8], version: 1.0.400.v20140518-0030
+Bundle [28]: org.eclipse.ant.ui, state: [8], version: 3.5.500.v20140521-1557
+Bundle [29]: org.eclipse.compare, state: [8], version: 3.5.500.v20131106-1552
+Bundle [30]: org.eclipse.compare.core, state: [32], version: 3.5.400.v20130903-0736
+Bundle [31]: org.eclipse.core.commands, state: [4], version: 3.6.100.v20140528-1422
+Bundle [32]: org.eclipse.core.contenttype, state: [32], version: 3.4.200.v20140207-1251
+Bundle [33]: org.eclipse.core.databinding, state: [8], version: 1.4.1.v20140214-0004
+Bundle [34]: org.eclipse.core.databinding.beans, state: [4], version: 1.2.200.v20140214-0004
+Bundle [35]: org.eclipse.core.databinding.observable, state: [32], version: 1.4.1.v20140210-1835
+Bundle [36]: org.eclipse.core.databinding.property, state: [8], version: 1.4.200.v20140214-0004
+Bundle [37]: org.eclipse.core.expressions, state: [32], version: 3.4.600.v20140128-0851
+Bundle [38]: org.eclipse.core.externaltools, state: [8], version: 1.0.300.v20140219-0051
+Bundle [39]: org.eclipse.core.filebuffers, state: [32], version: 3.5.400.v20140127-1516
+Bundle [40]: org.eclipse.core.filesystem, state: [32], version: 1.4.100.v20140514-1614
+Bundle [41]: org.eclipse.core.filesystem.java7, state: [4], version: 1.0.0.v20140429-1531
+Bundle [42]: org.eclipse.core.filesystem.macosx, state: [4], version: 1.3.0.v20140124-1940
+Bundle [43]: org.eclipse.core.jobs, state: [32], version: 3.6.0.v20140424-0053
+Bundle [44]: org.eclipse.core.net, state: [32], version: 1.2.200.v20140124-2013
+Bundle [45]: org.eclipse.core.resources, state: [32], version: 3.9.0.v20140514-1307
+Bundle [46]: org.eclipse.core.runtime, state: [32], version: 3.10.0.v20140318-2214
+Bundle [47]: org.eclipse.core.runtime.compatibility, state: [32], version: 3.2.200.v20140128-0851
+Bundle [48]: org.eclipse.core.runtime.compatibility.registry, state: [4], version: 3.5.300.v20140128-0851
+Bundle [49]: org.eclipse.core.variables, state: [32], version: 3.2.800.v20130819-1716
+Bundle [50]: org.eclipse.cvs, state: [8], version: 1.4.100.v20140606-1215
+Bundle [51]: org.eclipse.debug.core, state: [32], version: 3.9.0.v20140521-1435
+Bundle [52]: org.eclipse.debug.ui, state: [8], version: 3.10.0.v20140604-1637
+Bundle [53]: org.eclipse.e4.core.commands, state: [32], version: 0.10.2.v20140424-2344
+Bundle [54]: org.eclipse.e4.core.contexts, state: [32], version: 1.3.100.v20140407-1019
+Bundle [55]: org.eclipse.e4.core.di, state: [32], version: 1.4.0.v20140414-1837
+Bundle [56]: org.eclipse.e4.core.di.extensions, state: [32], version: 0.12.0.v20140417-2033
+Bundle [57]: org.eclipse.e4.core.services, state: [32], version: 1.2.0.v20140509-1840
+Bundle [58]: org.eclipse.e4.ui.bindings, state: [32], version: 0.10.200.v20140424-2042
+Bundle [59]: org.eclipse.e4.ui.css.core, state: [4], version: 0.10.100.v20140424-2042
+Bundle [60]: org.eclipse.e4.ui.css.swt, state: [32], version: 0.11.100.v20140522-1045
+Bundle [61]: org.eclipse.e4.ui.css.swt.theme, state: [32], version: 0.9.300.v20140424-2042
+Bundle [62]: org.eclipse.e4.ui.di, state: [32], version: 1.0.0.v20140328-2112
+Bundle [63]: org.eclipse.e4.ui.model.workbench, state: [32], version: 1.1.0.v20140512-1820
+Bundle [64]: org.eclipse.e4.ui.services, state: [32], version: 1.1.0.v20140328-1925
+Bundle [65]: org.eclipse.e4.ui.widgets, state: [4], version: 1.0.0.v20140514-1823
+Bundle [66]: org.eclipse.e4.ui.workbench, state: [32], version: 1.1.0.v20140528-1949
+Bundle [67]: org.eclipse.e4.ui.workbench.addons.swt, state: [32], version: 1.1.0.v20140602-1537
+Bundle [68]: org.eclipse.e4.ui.workbench.renderers.swt, state: [32], version: 0.12.0.v20140521-1818
+Bundle [69]: org.eclipse.e4.ui.workbench.renderers.swt.cocoa, state: [4], version: 0.11.200.v20140417-0906
+Bundle [70]: org.eclipse.e4.ui.workbench.swt, state: [32], version: 0.12.100.v20140530-1436
+Bundle [71]: org.eclipse.e4.ui.workbench3, state: [4], version: 0.12.0.v20140227-2118
+Bundle [72]: org.eclipse.egit, state: [8], version: 3.4.0.201406110918-r
+Bundle [73]: org.eclipse.egit.core, state: [32], version: 3.4.0.201406110918-r
+Bundle [74]: org.eclipse.egit.doc, state: [4], version: 3.4.0.201406110918-r
+Bundle [75]: org.eclipse.egit.ui, state: [32], version: 3.4.0.201406110918-r
+Bundle [76]: org.eclipse.epp.mpc.core, state: [32], version: 1.3.0.v20140521-1611
+Bundle [77]: org.eclipse.epp.mpc.help.ui, state: [4], version: 1.3.0.v20140425-1404
+Bundle [78]: org.eclipse.epp.mpc.ui, state: [32], version: 1.3.0.v20140529-2031
+Bundle [79]: org.eclipse.epp.package.standard, state: [8], version: 4.4.0.20140612-0500
+Bundle [80]: org.eclipse.equinox.app, state: [32], version: 1.3.200.v20130910-1609
+Bundle [81]: org.eclipse.equinox.bidi, state: [8], version: 0.10.0.v20130327-1442
+Bundle [82]: org.eclipse.equinox.common, state: [32], version: 3.6.200.v20130402-1505
+Bundle [83]: org.eclipse.equinox.concurrent, state: [8], version: 1.1.0.v20130327-1442
+Bundle [84]: org.eclipse.equinox.console, state: [32], version: 1.1.0.v20140131-1639
+Bundle [85]: org.eclipse.equinox.ds, state: [32], version: 1.4.200.v20131126-2331
+Bundle [86]: org.eclipse.equinox.event, state: [32], version: 1.3.100.v20140115-1647
+Bundle [87]: org.eclipse.equinox.frameworkadmin, state: [8], version: 2.0.100.v20131209-2144
+Bundle [88]: org.eclipse.equinox.frameworkadmin.equinox, state: [8], version: 1.0.500.v20131211-1531
+Bundle [89]: org.eclipse.equinox.http.jetty, state: [8], version: 3.0.200.v20131021-1843
+Bundle [90]: org.eclipse.equinox.http.registry, state: [4], version: 1.1.300.v20130402-1529
+Bundle [91]: org.eclipse.equinox.http.servlet, state: [8], version: 1.1.500.v20140318-1755
+Bundle [92]: org.eclipse.equinox.jsp.jasper, state: [8], version: 1.0.400.v20130327-1442
+Bundle [93]: org.eclipse.equinox.jsp.jasper.registry, state: [8], version: 1.0.300.v20130327-1442
+Bundle [94]: org.eclipse.equinox.launcher, state: [4], version: 1.3.0.v20140415-2008
+Bundle [95]: org.eclipse.equinox.launcher.cocoa.macosx.x86_64, state: [4], version: 1.1.200.v20140603-1326
+Bundle [96]: org.eclipse.equinox.p2.artifact.repository, state: [32], version: 1.1.300.v20131211-1531
+Bundle [97]: org.eclipse.equinox.p2.console, state: [8], version: 1.0.300.v20131113-1212
+Bundle [98]: org.eclipse.equinox.p2.core, state: [32], version: 2.3.0.v20131211-1531
+Bundle [99]: org.eclipse.equinox.p2.director, state: [32], version: 2.3.100.v20140224-1921
+Bundle [100]: org.eclipse.equinox.p2.director.app, state: [8], version: 1.0.300.v20140228-1829
+Bundle [101]: org.eclipse.equinox.p2.directorywatcher, state: [32], version: 1.1.0.v20131211-1531
+Bundle [102]: org.eclipse.equinox.p2.discovery, state: [4], version: 1.0.300.v20131210-1027
+Bundle [103]: org.eclipse.equinox.p2.discovery.compatibility, state: [8], version: 1.0.200.v20131211-1531
+Bundle [104]: org.eclipse.equinox.p2.engine, state: [32], version: 2.3.0.v20140506-1720
+Bundle [105]: org.eclipse.equinox.p2.extensionlocation, state: [32], version: 1.2.100.v20131119-0908
+Bundle [106]: org.eclipse.equinox.p2.garbagecollector, state: [8], version: 1.0.200.v20131115-1210
+Bundle [107]: org.eclipse.equinox.p2.jarprocessor, state: [4], version: 1.0.300.v20131211-1531
+Bundle [108]: org.eclipse.equinox.p2.metadata, state: [32], version: 2.2.0.v20131211-1531
+Bundle [109]: org.eclipse.equinox.p2.metadata.repository, state: [32], version: 1.2.100.v20131209-2144
+Bundle [110]: org.eclipse.equinox.p2.operations, state: [32], version: 2.4.0.v20131119-0908
+Bundle [111]: org.eclipse.equinox.p2.publisher, state: [32], version: 1.3.0.v20140129-1408
+Bundle [112]: org.eclipse.equinox.p2.publisher.eclipse, state: [32], version: 1.1.200.v20140414-0825
+Bundle [113]: org.eclipse.equinox.p2.ql, state: [8], version: 2.0.100.v20131211-1531
+Bundle [114]: org.eclipse.equinox.p2.reconciler.dropins, state: [32], version: 1.1.200.v20131119-0908
+Bundle [115]: org.eclipse.equinox.p2.repository, state: [32], version: 2.3.0.v20131211-1531
+Bundle [116]: org.eclipse.equinox.p2.repository.tools, state: [8], version: 2.1.0.v20131211-1531
+Bundle [117]: org.eclipse.equinox.p2.touchpoint.eclipse, state: [32], version: 2.1.200.v20140512-1650
+Bundle [118]: org.eclipse.equinox.p2.touchpoint.natives, state: [8], version: 1.1.100.v20140523-0116
+Bundle [119]: org.eclipse.equinox.p2.transport.ecf, state: [32], version: 1.1.0.v20140408-1354
+Bundle [120]: org.eclipse.equinox.p2.ui, state: [8], version: 2.3.0.v20140404-1657
+Bundle [121]: org.eclipse.equinox.p2.ui.discovery, state: [4], version: 1.0.100.v20131210-1027
+Bundle [122]: org.eclipse.equinox.p2.ui.importexport, state: [8], version: 1.1.0.v20131210-1027
+Bundle [123]: org.eclipse.equinox.p2.ui.sdk, state: [8], version: 1.0.300.v20140407-1803
+Bundle [124]: org.eclipse.equinox.p2.ui.sdk.scheduler, state: [32], version: 1.2.0.v20140422-1847
+Bundle [125]: org.eclipse.equinox.p2.updatechecker, state: [32], version: 1.1.200.v20131119-0908
+Bundle [126]: org.eclipse.equinox.p2.updatesite, state: [32], version: 1.0.400.v20131211-1531
+Bundle [127]: org.eclipse.equinox.preferences, state: [32], version: 3.5.200.v20140224-1527
+Bundle [128]: org.eclipse.equinox.registry, state: [32], version: 3.5.400.v20140428-1507
+Bundle [129]: org.eclipse.equinox.security, state: [32], version: 1.2.0.v20130424-1801
+Bundle [130]: org.eclipse.equinox.security.macosx, state: [4], version: 1.100.200.v20130327-1442
+Bundle [131]: org.eclipse.equinox.security.ui, state: [8], version: 1.1.200.v20130626-2037
+Bundle [132]: org.eclipse.equinox.simpleconfigurator.manipulator, state: [8], version: 2.0.0.v20131217-1203
+Bundle [133]: org.eclipse.equinox.util, state: [32], version: 1.0.500.v20130404-1337
+Bundle [134]: org.eclipse.help, state: [32], version: 3.6.0.v20130326-1254
+Bundle [135]: org.eclipse.help.base, state: [8], version: 4.0.200.v20140606-1215
+Bundle [136]: org.eclipse.help.ui, state: [8], version: 4.0.100.v20140401-0608
+Bundle [137]: org.eclipse.help.webapp, state: [8], version: 3.6.300.v20140407-1855
+Bundle [138]: org.eclipse.jdt.annotation, state: [4], version: 2.0.0.v20140415-1436
+Bundle [139]: org.eclipse.jdt.annotation, state: [4], version: 1.1.0.v20140129-1625
+Bundle [140]: org.eclipse.jdt.apt.pluggable.core, state: [32], version: 1.0.400.v20131113-0353
+Bundle [141]: org.eclipse.jdt.apt.ui, state: [8], version: 3.3.400.v20140311-1758
+Bundle [142]: org.eclipse.jdt.core.manipulation, state: [32], version: 1.5.0.v20130605-1748
+Bundle [143]: org.eclipse.jdt.debug.ui, state: [8], version: 3.6.300.v20140512-1926
+Bundle [144]: org.eclipse.jdt.junit, state: [8], version: 3.7.300.v20140418-0836
+Bundle [145]: org.eclipse.jdt.junit.core, state: [8], version: 3.7.300.v20140409-1618
+Bundle [146]: org.eclipse.jdt.junit.runtime, state: [4], version: 3.4.500.v20140527-1138
+Bundle [147]: org.eclipse.jdt.junit4.runtime, state: [4], version: 1.1.400.v20140314-0036
+Bundle [148]: org.eclipse.jdt.launching.macosx, state: [32], version: 3.2.300.v20130801-1441
+Bundle [149]: org.eclipse.jdt.launching.ui.macosx, state: [8], version: 1.0.300.v20130801-1441
+Bundle [150]: org.eclipse.jetty.continuation, state: [4], version: 8.1.14.v20131031
+Bundle [151]: org.eclipse.jetty.http, state: [4], version: 8.1.14.v20131031
+Bundle [152]: org.eclipse.jetty.io, state: [4], version: 8.1.14.v20131031
+Bundle [153]: org.eclipse.jetty.security, state: [4], version: 8.1.14.v20131031
+Bundle [154]: org.eclipse.jetty.server, state: [4], version: 8.1.14.v20131031
+Bundle [155]: org.eclipse.jetty.servlet, state: [4], version: 8.1.14.v20131031
+Bundle [156]: org.eclipse.jetty.util, state: [4], version: 8.1.14.v20131031
+Bundle [157]: org.eclipse.jface, state: [32], version: 3.10.0.v20140604-0740
+Bundle [158]: org.eclipse.jface.databinding, state: [4], version: 1.6.200.v20140528-1422
+Bundle [159]: org.eclipse.jface.text, state: [4], version: 3.9.0.v20140521-1657
+Bundle [160]: org.eclipse.jgit, state: [32], version: 3.4.0.201406110918-r
+Bundle [161]: org.eclipse.jgit.archive, state: [8], version: 3.4.0.201406110918-r
+Bundle [162]: org.eclipse.jsch.core, state: [32], version: 1.1.500.v20131112-1442
+Bundle [163]: org.eclipse.jsch.ui, state: [8], version: 1.1.500.v20131112-1442
+Bundle [164]: org.eclipse.ltk.core.refactoring, state: [32], version: 3.6.100.v20140520-1248
+Bundle [165]: org.eclipse.ltk.ui.refactoring, state: [32], version: 3.7.100.v20140324-1358
+Bundle [166]: org.eclipse.osgi.services, state: [4], version: 3.4.0.v20140312-2051
+Bundle [167]: org.eclipse.osgi.util, state: [4], version: 3.3.0.v20131023-1243
+Bundle [168]: org.eclipse.pde.api.tools, state: [8], version: 1.0.600.v20140520-1809
+Bundle [169]: org.eclipse.pde.api.tools.annotations, state: [4], version: 1.0.0.v20140602-1527
+Bundle [170]: org.eclipse.pde.build, state: [8], version: 3.9.0.v20140415-2029
+Bundle [171]: org.eclipse.pde.ds.core, state: [8], version: 1.0.300.v20140204-1740
+Bundle [172]: org.eclipse.pde.ds.ui, state: [8], version: 1.0.300.v20140204-1740
+Bundle [173]: org.eclipse.pde.junit.runtime, state: [8], version: 3.4.400.v20140204-1740
+Bundle [174]: org.eclipse.pde.launching, state: [32], version: 3.6.200.v20140521-1231
+Bundle [175]: org.eclipse.pde.runtime, state: [8], version: 3.4.400.v20140512-1555
+Bundle [176]: org.eclipse.pde.ua.ui, state: [8], version: 1.0.300.v20140307-1548
+Bundle [177]: org.eclipse.pde.ui.templates, state: [8], version: 3.4.800.v20140410-2009
+Bundle [178]: org.eclipse.platform, state: [4], version: 4.4.0.v20140606-1215
+Bundle [179]: org.eclipse.platform.doc.isv, state: [4], version: 4.4.0.v20140604-2138
+Bundle [180]: org.eclipse.platform.doc.user, state: [4], version: 4.4.0.v20140606-1558
+Bundle [181]: org.eclipse.rcp, state: [8], version: 4.3.100.v20140606-1215
+Bundle [182]: org.eclipse.search, state: [8], version: 3.9.100.v20140226-1637
+Bundle [183]: org.eclipse.swt, state: [4], version: 3.103.0.v20140605-2008
+Bundle [184]: org.eclipse.swt.cocoa.macosx.x86_64, state: [4], version: 3.103.0.v20140605-2012
+Bundle [185]: org.eclipse.team.core, state: [32], version: 3.7.0.v20130514-1224
+Bundle [186]: org.eclipse.team.cvs.core, state: [8], version: 3.3.600.v20131112-1442
+Bundle [187]: org.eclipse.team.cvs.ssh2, state: [8], version: 3.2.400.v20131112-1442
+Bundle [188]: org.eclipse.team.cvs.ui, state: [8], version: 3.3.600.v20130514-1224
+Bundle [189]: org.eclipse.team.ui, state: [32], version: 3.7.100.v20130710-1213
+Bundle [190]: org.eclipse.text, state: [4], version: 3.5.300.v20130515-1451
+Bundle [191]: org.eclipse.ui, state: [32], version: 3.106.0.v20140519-0906
+Bundle [192]: org.eclipse.ui.browser, state: [8], version: 3.4.200.v20131003-1453
+Bundle [193]: org.eclipse.ui.cheatsheets, state: [8], version: 3.4.200.v20131227-1524
+Bundle [194]: org.eclipse.ui.cocoa, state: [4], version: 1.1.100.v20140425-1618
+Bundle [195]: org.eclipse.ui.console, state: [32], version: 3.5.300.v20140424-1437
+Bundle [196]: org.eclipse.ui.editors, state: [32], version: 3.8.200.v20140401-1310
+Bundle [197]: org.eclipse.ui.externaltools, state: [8], version: 3.2.300.v20140327-1949
+Bundle [198]: org.eclipse.ui.forms, state: [8], version: 3.6.100.v20140422-1825
+Bundle [199]: org.eclipse.ui.ide, state: [32], version: 3.10.0.v20140521-1937
+Bundle [200]: org.eclipse.ui.ide.application, state: [4], version: 1.0.500.v20140514-2033
+Bundle [201]: org.eclipse.ui.intro, state: [8], version: 3.4.200.v20130326-1254
+Bundle [202]: org.eclipse.ui.intro.universal, state: [8], version: 3.2.700.v20130904-1701
+Bundle [203]: org.eclipse.ui.navigator, state: [8], version: 3.5.400.v20140210-1835
+Bundle [204]: org.eclipse.ui.navigator.resources, state: [8], version: 3.4.700.v20140407-1004
+Bundle [205]: org.eclipse.ui.net, state: [32], version: 1.2.200.v20120807-0927
+Bundle [206]: org.eclipse.ui.themes, state: [4], version: 1.0.0.v20140604-1608
+Bundle [207]: org.eclipse.ui.views, state: [32], version: 3.7.0.v20140408-0703
+Bundle [208]: org.eclipse.ui.views.log, state: [32], version: 1.0.500.v20140512-1221
+Bundle [209]: org.eclipse.ui.views.properties.tabbed, state: [8], version: 3.6.0.v20140519-0906
+Bundle [210]: org.eclipse.ui.workbench, state: [32], version: 3.106.0.v20140530-0732
+Bundle [211]: org.eclipse.ui.workbench.texteditor, state: [32], version: 3.9.0.v20140411-1521
+Bundle [212]: org.eclipse.update.configurator, state: [32], version: 3.3.300.v20140518-1928
+Bundle [213]: org.hamcrest.core, state: [8], version: 1.3.0.v201303031735
+Bundle [214]: org.junit, state: [4], version: 4.11.0.v201303080030
+Bundle [215]: org.objectweb.asm, state: [4], version: 5.0.1.v201404251740
+Bundle [216]: org.objectweb.asm.tree, state: [4], version: 5.0.1.v201404251740
+Bundle [217]: org.sat4j.core, state: [4], version: 2.3.5.v201308161310
+Bundle [218]: org.sat4j.pb, state: [4], version: 2.3.5.v201404071733
+Bundle [219]: org.w3c.css.sac, state: [4], version: 1.3.1.v200903091627
+Bundle [220]: org.w3c.dom.events, state: [4], version: 3.0.0.draft20060413_v201105210656
+Bundle [221]: org.w3c.dom.smil, state: [4], version: 1.0.0.v200806040011
+Bundle [222]: org.w3c.dom.svg, state: [4], version: 1.1.0.v201011041433
+Bundle [223]: com.google.guava, state: [4], version: 15.0.0.v201403281430
+Bundle [224]: com.google.gwt.eclipse.sdkbundle, state: [8], version: 2.6.0
+Bundle [225]: org.apache.commons.collections, state: [4], version: 3.2.0.v2013030210310
+Bundle [226]: org.apache.commons.lang, state: [4], version: 2.6.0.v201404270220
+Bundle [227]: org.apache.velocity, state: [4], version: 1.5.0.v200905192330
+Bundle [228]: org.apache.xerces, state: [4], version: 2.9.0.v201101211617
+Bundle [229]: org.apache.xml.resolver, state: [4], version: 1.2.0.v201005080400
+Bundle [230]: org.apache.xml.serializer, state: [4], version: 2.7.1.v201005080400
+Bundle [231]: org.eclipse.datatools.connectivity, state: [32], version: 1.2.11.v201401230755
+Bundle [232]: org.eclipse.datatools.connectivity.db.generic, state: [8], version: 1.0.1.v201107221459
+Bundle [233]: org.eclipse.datatools.connectivity.db.generic.ui, state: [8], version: 1.0.2.v201211200622
+Bundle [234]: org.eclipse.datatools.connectivity.sqm.core, state: [8], version: 1.2.8.v201401230755
+Bundle [235]: org.eclipse.datatools.connectivity.ui, state: [8], version: 1.2.4.v201212070447
+Bundle [236]: org.eclipse.datatools.enablement.jdt.classpath, state: [8], version: 1.0.1.v201107221501
+Bundle [237]: org.eclipse.datatools.help, state: [4], version: 1.5.0.v200906020553
+Bundle [238]: org.eclipse.datatools.modelbase.dbdefinition, state: [8], version: 1.0.2.v201107221519
+Bundle [239]: org.eclipse.datatools.modelbase.sql, state: [8], version: 1.0.6.v201208230744
+Bundle [240]: org.eclipse.datatools.modelbase.sql.query, state: [8], version: 1.1.4.v201212120619
+Bundle [241]: org.eclipse.datatools.sqltools.editor.core, state: [8], version: 1.0.3.v201212120623
+Bundle [242]: org.eclipse.datatools.sqltools.result, state: [8], version: 1.1.6.v201402080246
+Bundle [243]: org.eclipse.datatools.sqltools.sql, state: [8], version: 1.0.1.v201110050515
+Bundle [244]: org.eclipse.jpt.common.core, state: [32], version: 1.4.0.v201310142259
+Bundle [245]: org.eclipse.jpt.common.ui, state: [8], version: 1.4.0.v201310142259
+Bundle [246]: org.eclipse.jpt.common.utility, state: [32], version: 2.3.0.v201311210251
+Bundle [247]: org.eclipse.jpt.jpa.annotate, state: [8], version: 1.0.100.v201310142259
+Bundle [248]: org.eclipse.jpt.jpa.core, state: [32], version: 3.4.0.v201401221940
+Bundle [249]: org.eclipse.jpt.jpa.db, state: [32], version: 2.2.100.v201311210251
+Bundle [250]: org.eclipse.jpt.jpa.db.ui, state: [8], version: 2.1.100.v201310142259
+Bundle [251]: org.eclipse.jpt.jpa.gen, state: [8], version: 2.3.100.v201310142259
+Bundle [252]: org.eclipse.jpt.jpa.ui, state: [8], version: 3.4.0.v201312050012
+Bundle [253]: org.eclipse.jst.common.project.facet.core, state: [32], version: 1.4.400.v201403261500
+Bundle [254]: org.eclipse.jst.common.ui, state: [8], version: 1.0.201.v201208292200
+Bundle [255]: org.eclipse.jst.j2ee.core, state: [32], version: 1.3.100.v201404161600
+Bundle [256]: org.eclipse.jst.jee, state: [8], version: 1.0.700.v201404092030
+Bundle [257]: org.eclipse.jst.server.core, state: [8], version: 1.2.400.v20130918_1641
+Bundle [258]: org.eclipse.m2e.archetype.common, state: [4], version: 1.5.0.20140605-2032
+Bundle [259]: org.eclipse.m2e.core, state: [8], version: 1.5.0.20140606-0033
+Bundle [260]: org.eclipse.m2e.maven.indexer, state: [4], version: 1.5.0.20140605-2032
+Bundle [261]: org.eclipse.m2e.maven.runtime, state: [4], version: 1.5.0.20140605-2032
+Bundle [262]: org.eclipse.m2e.maven.runtime.slf4j.simple, state: [4], version: 1.5.0.20140605-2032
+Bundle [263]: org.eclipse.wst.common.project.facet.core, state: [32], version: 1.4.300.v201111030424
+Bundle [264]: org.jdom, state: [4], version: 1.1.1.v201101151400
+Bundle [265]: org.slf4j.api, state: [4], version: 1.7.2.v20121108-1250
+Bundle [266]: com.google.appengine.eclipse.sdkbundle, state: [8], version: 1.9.17
+Bundle [267]: org.eclipse.persistence.jpa.jpql, state: [4], version: 2.6.0.v20140809-296a69f
+Bundle [268]: com.google.appengine.eclipse.core, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [269]: com.google.appengine.eclipse.datatools, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [270]: com.google.appengine.eclipse.webtools, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [271]: com.google.appengine.eclipse.wtp, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [272]: com.google.appengine.eclipse.wtp.jpa, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [273]: com.google.appengine.eclipse.wtp.jpa.e42, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [274]: com.google.appengine.eclipse.wtp.swarm, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [275]: com.google.gdt.eclipse.apiclientlib, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [276]: com.google.gdt.eclipse.appengine.api, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [277]: com.google.gdt.eclipse.appengine.swarm, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [278]: com.google.gdt.eclipse.appengine.swarm_backend, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [279]: com.google.gdt.eclipse.core, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [280]: com.google.gdt.eclipse.drive, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [281]: com.google.gdt.eclipse.gph, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [282]: com.google.gdt.eclipse.gph.hge, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [283]: com.google.gdt.eclipse.gph.subclipse, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [284]: com.google.gdt.eclipse.gph.subversive, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [285]: com.google.gdt.eclipse.login, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [286]: com.google.gdt.eclipse.managedapis, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [287]: com.google.gdt.eclipse.maven, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [288]: com.google.gdt.eclipse.platform, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [289]: com.google.gdt.eclipse.suite, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [290]: com.google.gdt.eclipse.suite.ext, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [291]: com.google.gdt.eclipse.suite.ext.e38, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [292]: com.google.gwt.eclipse.core, state: [32], version: 3.8.0.v201410302155-rel-r42
+Bundle [293]: com.google.gwt.eclipse.libs, state: [4], version: 3.8.0.v201410302155-rel-r42
+Bundle [294]: com.google.gwt.eclipse.oophm, state: [8], version: 3.8.0.v201410302155-rel-r42
+Bundle [295]: org.eclipse.draw2d, state: [8], version: 3.9.101.201408150207
+Bundle [296]: org.eclipse.jdt.doc.user, state: [4], version: 3.10.1.v20140827-1504
+Bundle [297]: org.eclipse.jem, state: [8], version: 2.0.600.v201302011850
+Bundle [298]: org.eclipse.jem.workbench, state: [8], version: 2.0.400.v201302011850
+Bundle [299]: org.eclipse.jst.common.annotations.controller, state: [4], version: 1.1.300.v201302011850
+Bundle [300]: org.eclipse.jst.common.annotations.core, state: [4], version: 1.1.300.v201302011850
+Bundle [301]: org.eclipse.jst.common.frameworks, state: [8], version: 1.1.601.v201302011850
+Bundle [302]: org.eclipse.jst.j2ee.ejb.annotation.model, state: [8], version: 1.1.300.v201004110730
+Bundle [303]: org.eclipse.mylyn.commons.core, state: [8], version: 3.13.0.v20140704-2323
+Bundle [304]: org.eclipse.mylyn.commons.screenshots, state: [4], version: 3.13.0.v20140702-2155
+Bundle [305]: org.eclipse.mylyn.commons.ui, state: [8], version: 3.13.0.v20140704-2323
+Bundle [306]: org.eclipse.pde.api.tools.ui, state: [8], version: 1.0.501.v20140808-0849
+Bundle [307]: org.eclipse.pde.ua.core, state: [8], version: 1.0.301.v20140702-1823
+Bundle [308]: org.eclipse.ui.trace, state: [32], version: 1.0.201.v20140702-1807
+Bundle [309]: org.eclipse.wst.common.frameworks, state: [8], version: 1.2.200.v201304241450
+Bundle [310]: org.eclipse.wst.common.modulecore, state: [8], version: 1.2.401.v201408132036
+Bundle [311]: org.eclipse.wst.common.project.facet.ui, state: [8], version: 1.4.500.v201409111446
+Bundle [312]: org.eclipse.wst.web.ui, state: [8], version: 1.1.600.v201302011850
+Bundle [313]: jd.ide.eclipse, state: [32], version: 0.1.5
+Bundle [314]: jd.ide.eclipse.macosx.x86_64, state: [4], version: 0.1.5
+Bundle [315]: org.apache.httpcomponents.httpclient, state: [4], version: 4.3.6.v201411290715
+Bundle [316]: org.apache.httpcomponents.httpcore, state: [4], version: 4.3.3.v201411290715
+Bundle [317]: org.eclipse.ecf, state: [32], version: 3.4.0.v20141221-2352
+Bundle [318]: org.eclipse.ecf.filetransfer, state: [32], version: 5.0.0.v20141221-2352
+Bundle [319]: org.eclipse.ecf.identity, state: [32], version: 3.4.0.v20141221-2352
+Bundle [320]: org.eclipse.ecf.provider.filetransfer, state: [32], version: 3.2.200.v20141221-2352
+Bundle [321]: org.eclipse.ecf.provider.filetransfer.httpclient4, state: [32], version: 1.0.1043.v20141221-2352
+Bundle [322]: org.eclipse.ecf.provider.filetransfer.httpclient4.ssl, state: [4], version: 1.0.0.v20141221-2352
+Bundle [323]: org.eclipse.ecf.provider.filetransfer.ssl, state: [4], version: 1.0.0.v20141221-2352
+Bundle [324]: org.eclipse.ecf.ssl, state: [4], version: 1.1.0.v20141221-2352
+Bundle [325]: org.eclipse.emf.common, state: [32], version: 2.10.1.v20150123-0348
+Bundle [326]: org.eclipse.emf.ecore, state: [32], version: 2.10.2.v20150123-0348
+Bundle [327]: org.eclipse.emf.ecore.change, state: [8], version: 2.10.0.v20150123-0348
+Bundle [328]: org.eclipse.emf.ecore.xmi, state: [32], version: 2.10.2.v20150123-0348
+Bundle [329]: org.eclipse.jdt, state: [4], version: 3.10.1.v20150204-1700
+Bundle [330]: org.eclipse.jdt.apt.core, state: [32], version: 3.3.600.v20150122-0735
+Bundle [331]: org.eclipse.jdt.compiler.apt, state: [4], version: 1.1.0.v20150122-0735
+Bundle [332]: org.eclipse.jdt.compiler.tool, state: [4], version: 1.0.300.v20150114-1827
+Bundle [333]: org.eclipse.jdt.core, state: [32], version: 3.10.2.v20150120-1634
+Bundle [334]: org.eclipse.jdt.debug, state: [8], version: 3.8.102.v20150115-1323
+Bundle [335]: org.eclipse.jdt.doc.isv, state: [4], version: 3.10.2.v20150202-1407
+Bundle [336]: org.eclipse.jdt.launching, state: [32], version: 3.7.102.v20141111-0953
+Bundle [337]: org.eclipse.jdt.ui, state: [32], version: 3.10.2.v20141014-1419
+Bundle [338]: org.epic.doc, state: [8], version: 0.6.2
+Bundle [339]: org.epic.lib, state: [4], version: 0.6.1
+Bundle [340]: org.epic.regexp, state: [8], version: 0.6.1
+Bundle [341]: org.epic.debug, state: [8], version: 0.6.42
+Bundle [342]: org.epic.perleditor, state: [32], version: 0.6.39
+Bundle [343]: org.epic.source, state: [4], version: 0.6.57
+Bundle [344]: com.android.ide.eclipse.adt, state: [32], version: 23.0.7.2120684
+Bundle [345]: com.android.ide.eclipse.base, state: [32], version: 23.0.7.2120684
+Bundle [346]: com.android.ide.eclipse.ddms, state: [8], version: 23.0.7.2120684
+Bundle [347]: com.android.ide.eclipse.gldebugger, state: [8], version: 23.0.7.2120684
+Bundle [348]: com.android.ide.eclipse.hierarchyviewer, state: [8], version: 23.0.7.2120684
+Bundle [349]: com.android.ide.eclipse.ndk, state: [8], version: 23.0.7.2120684
+Bundle [350]: com.android.ide.eclipse.traceview, state: [8], version: 23.0.7.2120684
+Bundle [351]: org.eclipse.cdt, state: [8], version: 8.6.0.201502131403
+Bundle [352]: org.eclipse.cdt.codan.checkers, state: [8], version: 3.2.0.201502131403
+Bundle [353]: org.eclipse.cdt.codan.checkers.ui, state: [8], version: 3.2.0.201502131403
+Bundle [354]: org.eclipse.cdt.codan.core, state: [8], version: 3.2.0.201502131403
+Bundle [355]: org.eclipse.cdt.codan.core.cxx, state: [8], version: 3.2.0.201502131403
+Bundle [356]: org.eclipse.cdt.codan.ui, state: [8], version: 3.2.0.201502131403
+Bundle [357]: org.eclipse.cdt.codan.ui.cxx, state: [32], version: 3.2.0.201502131403
+Bundle [358]: org.eclipse.cdt.core, state: [8], version: 5.9.1.201502131403
+Bundle [359]: org.eclipse.cdt.core.macosx, state: [4], version: 5.3.0.201502131403
+Bundle [360]: org.eclipse.cdt.core.native, state: [32], version: 5.7.0.201502131403
+Bundle [361]: org.eclipse.cdt.debug.core, state: [8], version: 7.6.0.201502131403
+Bundle [362]: org.eclipse.cdt.debug.mi.core, state: [8], version: 7.3.0.201502131403
+Bundle [363]: org.eclipse.cdt.debug.mi.ui, state: [8], version: 6.2.0.201502131403
+Bundle [364]: org.eclipse.cdt.debug.ui, state: [8], version: 7.5.0.201502131403
+Bundle [365]: org.eclipse.cdt.doc.user, state: [8], version: 5.3.0.201502131403
+Bundle [366]: org.eclipse.cdt.dsf, state: [8], version: 2.6.0.201502131403
+Bundle [367]: org.eclipse.cdt.dsf.gdb, state: [8], version: 4.6.0.201502131403
+Bundle [368]: org.eclipse.cdt.dsf.gdb.ui, state: [8], version: 2.4.0.201502131403
+Bundle [369]: org.eclipse.cdt.dsf.ui, state: [8], version: 2.5.0.201502131403
+Bundle [370]: org.eclipse.cdt.gdb, state: [8], version: 7.0.0.201502131403
+Bundle [371]: org.eclipse.cdt.gdb.ui, state: [8], version: 7.0.0.201502131403
+Bundle [372]: org.eclipse.cdt.launch, state: [8], version: 7.2.0.201502131403
+Bundle [373]: org.eclipse.cdt.make.core, state: [32], version: 7.3.0.201502131403
+Bundle [374]: org.eclipse.cdt.make.ui, state: [8], version: 7.2.0.201502131403
+Bundle [375]: org.eclipse.cdt.managedbuilder.core, state: [8], version: 8.3.0.201502131403
+Bundle [376]: org.eclipse.cdt.managedbuilder.gnu.ui, state: [8], version: 8.3.0.201502131403
+Bundle [377]: org.eclipse.cdt.managedbuilder.ui, state: [8], version: 8.2.2.201502131403
+Bundle [378]: org.eclipse.cdt.ui, state: [8], version: 5.9.0.201502131403
+Bundle [379]: org.eclipse.emf.edit, state: [8], version: 2.10.1.v20150123-0452
+Bundle [380]: org.eclipse.wst.common.emf, state: [32], version: 1.2.300.v201501292352
+Bundle [381]: org.eclipse.wst.sse.ui, state: [32], version: 1.3.301.v201501151629
+Bundle [382]: org.eclipse.wst.validation, state: [8], version: 1.2.600.v201501211647
+Bundle [383]: org.eclipse.wst.xml.core, state: [8], version: 1.1.902.v201501211904
+Bundle [384]: org.eclipse.wst.xml.ui, state: [8], version: 1.1.501.v201501212057
+Bundle [385]: overlay.com.android.ide.eclipse.adt.overlay, state: [8], version: 23.0.7.2120684
+Bundle [386]: com.mountainminds.eclemma.asm, state: [4], version: 2.3.2.201409141915
+Bundle [387]: com.mountainminds.eclemma.core, state: [8], version: 2.3.2.201409141915
+Bundle [388]: com.mountainminds.eclemma.debug.ui.compatibility, state: [4], version: 2.3.2.201409141915
+Bundle [389]: com.mountainminds.eclemma.doc, state: [4], version: 2.3.2.201409141915
+Bundle [390]: com.mountainminds.eclemma.ui, state: [8], version: 2.3.2.201409141915
+Bundle [391]: org.jacoco.agent, state: [4], version: 0.7.2.201409121644
+Bundle [392]: org.jacoco.core, state: [4], version: 0.7.2.201409121644
+Bundle [393]: org.jacoco.report, state: [4], version: 0.7.2.201409121644
+Bundle [394]: com.perforce.p4api, state: [8], version: 2015.1.1318019
+Bundle [395]: com.perforce.team.branding, state: [4], version: 2015.1.1318019
+Bundle [396]: com.perforce.team.core, state: [32], version: 2015.1.1318019
+Bundle [397]: com.perforce.team.help.ui, state: [4], version: 2015.1.1318019
+Bundle [398]: com.perforce.team.ui, state: [32], version: 2015.1.1318019
+Bundle [399]: com.perforce.team.ui.text, state: [8], version: 2015.1.1318019
+Bundle [400]: javax.wsdl, state: [4], version: 1.5.1.v201012040544
+Bundle [401]: javax.xml.rpc, state: [4], version: 1.1.0.v201209140446
+Bundle [402]: javax.xml.soap, state: [4], version: 1.2.0.v201005080501
+Bundle [403]: org.apache.axis, state: [4], version: 1.4.0.v201005080400
+Bundle [404]: org.apache.commons.discovery, state: [4], version: 0.2.0.v201004190315
+Bundle [405]: org.apache.wsil4j, state: [4], version: 1.0.0.v200901211807
+Bundle [406]: org.eclipse.emf, state: [8], version: 2.6.0.v20150123-0452
+Bundle [407]: org.eclipse.emf.codegen, state: [8], version: 2.10.0.v20150123-0452
+Bundle [408]: org.eclipse.emf.common.ui, state: [8], version: 2.9.0.v20150123-0452
+Bundle [409]: org.eclipse.emf.ecore.edit, state: [8], version: 2.9.0.v20150123-0452
+Bundle [410]: org.eclipse.emf.edit.ui, state: [8], version: 2.10.2.v20150123-0452
+Bundle [411]: org.eclipse.gef, state: [8], version: 3.9.100.201408150207
+Bundle [412]: org.eclipse.jem.proxy, state: [8], version: 2.0.410.v201411191736
+Bundle [413]: org.eclipse.jem.util, state: [32], version: 2.1.200.v201404021757
+Bundle [414]: org.eclipse.jst.common.project.facet.ui, state: [8], version: 1.4.510.v201501141810
+Bundle [415]: org.eclipse.jst.ejb.doc.user, state: [8], version: 1.1.301.v201105130955
+Bundle [416]: org.eclipse.jst.ejb.ui, state: [8], version: 1.1.900.v201402130359
+Bundle [417]: org.eclipse.jst.ejb.ui.infopop, state: [8], version: 1.0.300.v201002231012
+Bundle [418]: org.eclipse.jst.j2ee, state: [8], version: 1.1.802.v201502041526
+Bundle [419]: org.eclipse.jst.j2ee.doc.user, state: [4], version: 1.1.400.v201008122207
+Bundle [420]: org.eclipse.jst.j2ee.ejb, state: [8], version: 1.1.800.v201404021607
+Bundle [421]: org.eclipse.jst.j2ee.ejb.annotations.emitter, state: [8], version: 1.1.200.v201004110730
+Bundle [422]: org.eclipse.jst.j2ee.ejb.annotations.ui, state: [8], version: 1.1.200.v201004261420
+Bundle [423]: org.eclipse.jst.j2ee.ejb.annotations.xdoclet, state: [8], version: 1.2.200.v201103302126
+Bundle [424]: org.eclipse.jst.j2ee.infopop, state: [4], version: 1.0.300.v201309091923
+Bundle [425]: org.eclipse.jst.j2ee.jca, state: [8], version: 1.1.700.v201305311426
+Bundle [426]: org.eclipse.jst.j2ee.jca.ui, state: [8], version: 1.1.500.v201304231803
+Bundle [427]: org.eclipse.jst.j2ee.navigator.ui, state: [8], version: 1.1.600.v201302011850
+Bundle [428]: org.eclipse.jst.j2ee.ui, state: [8], version: 1.1.801.v201501141713
+Bundle [429]: org.eclipse.jst.j2ee.web, state: [8], version: 1.1.810.v201501141727
+Bundle [430]: org.eclipse.jst.j2ee.webservice, state: [8], version: 1.1.400.v201302011850
+Bundle [431]: org.eclipse.jst.j2ee.webservice.ui, state: [8], version: 1.1.500.v201302011850
+Bundle [432]: org.eclipse.jst.j2ee.xdoclet.runtime, state: [8], version: 1.1.300.v201004280609
+Bundle [433]: org.eclipse.jst.jee.ejb, state: [8], version: 1.0.400.v201305061702
+Bundle [434]: org.eclipse.jst.jee.ui, state: [8], version: 1.0.701.v201408251535
+Bundle [435]: org.eclipse.jst.jsf.common, state: [8], version: 1.5.100.v201409111805
+Bundle [436]: org.eclipse.jst.jsf.common.runtime, state: [8], version: 1.4.0.v201405281344
+Bundle [437]: org.eclipse.jst.jsf.common.ui, state: [8], version: 1.5.0.v201405281344
+Bundle [438]: org.eclipse.jst.jsf.core, state: [8], version: 1.7.100.v201409111805
+Bundle [439]: org.eclipse.jst.jsf.facesconfig, state: [8], version: 1.5.0.v201405281344
+Bundle [440]: org.eclipse.jst.jsp.core, state: [8], version: 1.2.701.v201501151629
+Bundle [441]: org.eclipse.jst.jsp.ui, state: [8], version: 1.1.901.v201501261620
+Bundle [442]: org.eclipse.jst.jsp.ui.infopop, state: [4], version: 1.0.200.v201309112106
+Bundle [443]: org.eclipse.jst.pagedesigner, state: [8], version: 1.6.200.v201409302017
+Bundle [444]: org.eclipse.jst.pagedesigner.jsf.ui, state: [8], version: 1.5.0.v201309172102
+Bundle [445]: org.eclipse.jst.pagedesigner.jsp.core, state: [8], version: 1.5.0.v201309172102
+Bundle [446]: org.eclipse.jst.servlet.ui, state: [8], version: 1.1.801.v201409042158
+Bundle [447]: org.eclipse.jst.servlet.ui.infopop, state: [8], version: 1.0.500.v201105121947
+Bundle [448]: org.eclipse.jst.ws, state: [8], version: 1.0.701.v201411261651
+Bundle [449]: org.eclipse.jst.ws.axis.consumption.core, state: [8], version: 1.0.500.v201401152035
+Bundle [450]: org.eclipse.jst.ws.axis.consumption.ui, state: [8], version: 1.0.750.v201311011546
+Bundle [451]: org.eclipse.jst.ws.axis.creation.ui, state: [8], version: 1.0.800.v201309242123
+Bundle [452]: org.eclipse.jst.ws.axis.infopop, state: [8], version: 1.0.400.v201309242123
+Bundle [453]: org.eclipse.jst.ws.axis.ui.doc.user, state: [4], version: 1.1.200.v201309242123
+Bundle [454]: org.eclipse.jst.ws.consumption, state: [8], version: 1.0.750.v201309242123
+Bundle [455]: org.eclipse.jst.ws.consumption.infopop, state: [4], version: 1.0.400.v201309242123
+Bundle [456]: org.eclipse.jst.ws.consumption.ui, state: [8], version: 1.1.751.v201501131919
+Bundle [457]: org.eclipse.jst.ws.consumption.ui.doc.user, state: [8], version: 1.0.700.v201309242123
+Bundle [458]: org.eclipse.jst.ws.creation.ejb.ui, state: [4], version: 1.0.250.v201309242123
+Bundle [459]: org.eclipse.jst.ws.creation.ui, state: [8], version: 1.0.851.v201501131919
+Bundle [460]: org.eclipse.jst.ws.doc.user, state: [4], version: 1.0.700.v201309242123
+Bundle [461]: org.eclipse.jst.ws.infopop, state: [4], version: 1.0.400.v201309242123
+Bundle [462]: org.eclipse.jst.ws.jaxrs.core, state: [32], version: 1.0.551.v201409041522
+Bundle [463]: org.eclipse.jst.ws.jaxrs.ui, state: [8], version: 1.0.651.v201409041522
+Bundle [464]: org.eclipse.jst.ws.uddiregistry, state: [8], version: 1.0.550.v201309242123
+Bundle [465]: org.eclipse.jst.ws.ui, state: [8], version: 1.0.450.v201309242123
+Bundle [466]: org.eclipse.pde, state: [4], version: 3.10.1.v20150204-1700
+Bundle [467]: org.eclipse.pde.core, state: [32], version: 3.10.2.v20150127-1015
+Bundle [468]: org.eclipse.pde.doc.user, state: [4], version: 3.10.2.v20150202-1407
+Bundle [469]: org.eclipse.pde.ui, state: [32], version: 3.8.101.v20141001-1400
+Bundle [470]: org.eclipse.wst.command.env, state: [8], version: 1.0.450.v201401132315
+Bundle [471]: org.eclipse.wst.command.env.core, state: [4], version: 1.0.250.v201310240024
+Bundle [472]: org.eclipse.wst.command.env.ui, state: [8], version: 1.1.151.v201501131919
+Bundle [473]: org.eclipse.wst.common.core, state: [32], version: 1.2.0.v200908251833
+Bundle [474]: org.eclipse.wst.common.emfworkbench.integration, state: [8], version: 1.2.101.v201107081800
+Bundle [475]: org.eclipse.wst.common.environment, state: [8], version: 1.0.400.v200912181831
+Bundle [476]: org.eclipse.wst.common.frameworks.ui, state: [8], version: 1.2.300.v201401292051
+Bundle [477]: org.eclipse.wst.common.infopop, state: [8], version: 1.0.300.v201309101952
+Bundle [478]: org.eclipse.wst.common.modulecore.ui, state: [8], version: 1.0.201.v201208241542
+Bundle [479]: org.eclipse.wst.common.snippets, state: [8], version: 1.2.200.v201208080420
+Bundle [480]: org.eclipse.wst.common.ui, state: [8], version: 1.1.500.v200911182011
+Bundle [481]: org.eclipse.wst.common.uriresolver, state: [8], version: 1.2.100.v201305141634
+Bundle [482]: org.eclipse.wst.css.core, state: [8], version: 1.1.800.v201402172058
+Bundle [483]: org.eclipse.wst.css.ui, state: [8], version: 1.0.901.v201501212057
+Bundle [484]: org.eclipse.wst.doc.user, state: [8], version: 1.2.0.v201309112106
+Bundle [485]: org.eclipse.wst.dtd.core, state: [8], version: 1.1.700.v201211012112
+Bundle [486]: org.eclipse.wst.dtd.ui, state: [8], version: 1.0.801.v201308100602
+Bundle [487]: org.eclipse.wst.dtd.ui.infopop, state: [4], version: 1.0.400.v201309112106
+Bundle [488]: org.eclipse.wst.dtdeditor.doc.user, state: [4], version: 1.0.700.v201208081537
+Bundle [489]: org.eclipse.wst.html.core, state: [8], version: 1.1.802.v201501312139
+Bundle [490]: org.eclipse.wst.html.ui, state: [8], version: 1.0.902.v201501212057
+Bundle [491]: org.eclipse.wst.html.ui.infopop, state: [4], version: 1.0.201.v201409111852
+Bundle [492]: org.eclipse.wst.internet.cache, state: [8], version: 1.0.700.v201211211430
+Bundle [493]: org.eclipse.wst.internet.monitor.core, state: [8], version: 1.0.600.v201309182039
+Bundle [494]: org.eclipse.wst.internet.monitor.ui, state: [8], version: 1.0.700.v201309182039
+Bundle [495]: org.eclipse.wst.jsdt.core, state: [8], version: 1.3.300.v201410221502
+Bundle [496]: org.eclipse.wst.jsdt.debug.core, state: [8], version: 3.1.100.v201405212207
+Bundle [497]: org.eclipse.wst.jsdt.debug.crossfire, state: [8], version: 1.0.400.v201402051800
+Bundle [498]: org.eclipse.wst.jsdt.debug.rhino, state: [8], version: 1.0.300.v201402051800
+Bundle [499]: org.eclipse.wst.jsdt.debug.rhino.debugger, state: [4], version: 1.0.400.v201402051800
+Bundle [500]: org.eclipse.wst.jsdt.debug.transport, state: [4], version: 1.0.200.v201402051800
+Bundle [501]: org.eclipse.wst.jsdt.debug.ui, state: [8], version: 1.0.400.v201402051800
+Bundle [502]: org.eclipse.wst.jsdt.doc, state: [4], version: 1.4.100.v201309042002
+Bundle [503]: org.eclipse.wst.jsdt.manipulation, state: [8], version: 1.0.500.v201402051800
+Bundle [504]: org.eclipse.wst.jsdt.support.firefox, state: [8], version: 1.0.500.v201402051800
+Bundle [505]: org.eclipse.wst.jsdt.support.ie, state: [4], version: 1.0.500.v201402051800
+Bundle [506]: org.eclipse.wst.jsdt.ui, state: [8], version: 1.1.500.v201409121658
+Bundle [507]: org.eclipse.wst.jsdt.web.core, state: [8], version: 1.0.700.v201307151913
+Bundle [508]: org.eclipse.wst.jsdt.web.ui, state: [8], version: 1.0.800.v201403271809
+Bundle [509]: org.eclipse.wst.server.core, state: [8], version: 1.6.2.v201409292121
+Bundle [510]: org.eclipse.wst.server.discovery, state: [8], version: 1.0.501.v201501132217
+Bundle [511]: org.eclipse.wst.server.ui, state: [8], version: 1.5.100.v201407281532
+Bundle [512]: org.eclipse.wst.server.ui.doc.user, state: [8], version: 1.1.600.v201309182117
+Bundle [513]: org.eclipse.wst.server.ui.infopop, state: [4], version: 1.1.200.v201309182117
+Bundle [514]: org.eclipse.wst.sse.core, state: [8], version: 1.1.900.v201401092025
+Bundle [515]: org.eclipse.wst.sse.doc.user, state: [4], version: 1.1.100.v201208081537
+Bundle [516]: org.eclipse.wst.sse.ui.infopop, state: [4], version: 1.0.300.v201309112106
+Bundle [517]: org.eclipse.wst.standard.schemas, state: [4], version: 1.0.700.v201304171715
+Bundle [518]: org.eclipse.wst.validation.infopop, state: [4], version: 1.0.300.v201309101952
+Bundle [519]: org.eclipse.wst.validation.ui, state: [8], version: 1.2.500.v201310231452
+Bundle [520]: org.eclipse.wst.web, state: [32], version: 1.1.800.v201312041437
+Bundle [521]: org.eclipse.wst.web.ui.infopop, state: [8], version: 1.0.300.v200805140206
+Bundle [522]: org.eclipse.wst.webtools.doc.user, state: [8], version: 1.0.500.v201208081537
+Bundle [523]: org.eclipse.wst.ws, state: [8], version: 1.1.350.v201310240024
+Bundle [524]: org.eclipse.wst.ws.explorer, state: [8], version: 1.0.750.v201401291757
+Bundle [525]: org.eclipse.wst.ws.parser, state: [8], version: 1.0.550.v201310240024
+Bundle [526]: org.eclipse.wst.ws.service.policy, state: [8], version: 1.0.400.v201310240024
+Bundle [527]: org.eclipse.wst.ws.ui, state: [8], version: 1.1.250.v201310240024
+Bundle [528]: org.eclipse.wst.wsdl, state: [8], version: 1.2.350.v201310240024
+Bundle [529]: org.eclipse.wst.wsdl.validation, state: [8], version: 1.1.650.v201310240024
+Bundle [530]: org.eclipse.wst.xml.ui.infopop, state: [4], version: 1.0.400.v201309112106
+Bundle [531]: org.eclipse.wst.xmleditor.doc.user, state: [4], version: 1.0.700.v201208081537
+Bundle [532]: org.eclipse.wst.xsd.core, state: [8], version: 1.1.900.v201401141857
+Bundle [533]: org.eclipse.wst.xsd.ui, state: [8], version: 1.2.500.v201208081537
+Bundle [534]: org.eclipse.wst.xsdeditor.doc.user, state: [4], version: 1.0.800.v201208081537
+Bundle [535]: org.eclipse.xsd, state: [8], version: 2.10.0.v20150123-0452
+Bundle [536]: org.eclipse.xsd.edit, state: [8], version: 2.7.0.v20150123-0452
+Bundle [537]: org.mozilla.javascript, state: [4], version: 1.7.2.v201005080400
+Bundle [538]: org.uddi4j, state: [4], version: 2.0.5.v200805270300
+Bundle [539]: com.google.gson, state: [4], version: 2.2.4
+Bundle [540]: com.parasoft.jtest.common, state: [8], version: 10.2.3.20160722
+Bundle [541]: com.parasoft.jtest.common.eclipse, state: [8], version: 10.2.3.20160722
+Bundle [542]: com.parasoft.jtest.common.ui, state: [8], version: 10.2.3.20160722
+Bundle [543]: com.parasoft.jtest.context.api, state: [4], version: 10.2.3.20160722
+Bundle [544]: com.parasoft.jtest.controller.api, state: [8], version: 10.2.3.20160722
+Bundle [545]: com.parasoft.jtest.data, state: [4], version: 10.2.3.20160722
+Bundle [546]: com.parasoft.jtest.execution.eclipse, state: [8], version: 10.2.3.20160722
+Bundle [547]: com.parasoft.jtest.execution.eclipse.tomcat, state: [8], version: 10.2.3.20160722
+Bundle [548]: com.parasoft.jtest.execution.instrumentator, state: [8], version: 10.2.3.20160722
+Bundle [549]: com.parasoft.jtest.execution.runtime.api, state: [8], version: 10.2.3.20160722
+Bundle [550]: com.parasoft.xtest.analyzers.api, state: [8], version: 10.2.3.20160715
+Bundle [551]: com.parasoft.xtest.authorship, state: [8], version: 10.2.3.20160715
+Bundle [552]: com.parasoft.xtest.chart.api, state: [8], version: 10.2.3.20160715
+Bundle [553]: com.parasoft.xtest.common, state: [8], version: 10.2.3.20160715
+Bundle [554]: com.parasoft.xtest.common.api, state: [8], version: 10.2.3.20160715
+Bundle [555]: com.parasoft.xtest.common.eclipse, state: [8], version: 10.2.3.20160715
+Bundle [556]: com.parasoft.xtest.common.ui, state: [32], version: 10.2.3.20160715
+Bundle [557]: com.parasoft.xtest.configuration, state: [8], version: 10.2.3.20160715
+Bundle [558]: com.parasoft.xtest.configuration.api, state: [8], version: 10.2.3.20160715
+Bundle [559]: com.parasoft.xtest.coverage, state: [8], version: 10.2.3.20160715
+Bundle [560]: com.parasoft.xtest.coverage.api, state: [4], version: 10.2.3.20160715
+Bundle [561]: com.parasoft.xtest.coverage.ui, state: [8], version: 10.2.3.20160715
+Bundle [562]: com.parasoft.xtest.lic.client, state: [8], version: 10.2.3.20160715
+Bundle [563]: com.parasoft.xtest.logging.api, state: [32], version: 10.2.3.20160715
+Bundle [564]: com.parasoft.xtest.logging.eclipse, state: [8], version: 10.2.3.20160715
+Bundle [565]: com.parasoft.xtest.preference.api, state: [8], version: 10.2.3.20160715
+Bundle [566]: com.parasoft.xtest.reports, state: [8], version: 10.2.3.20160715
+Bundle [567]: com.parasoft.xtest.reports.api, state: [8], version: 10.2.3.20160715
+Bundle [568]: com.parasoft.xtest.reports.fonts, state: [4], version: 10.2.3.20160715
+Bundle [569]: com.parasoft.xtest.resource.api, state: [8], version: 10.2.3.20160715
+Bundle [570]: com.parasoft.xtest.results, state: [8], version: 10.2.3.20160715
+Bundle [571]: com.parasoft.xtest.results.api, state: [4], version: 10.2.3.20160715
+Bundle [572]: com.parasoft.xtest.results.ui, state: [8], version: 10.2.3.20160715
+Bundle [573]: com.parasoft.xtest.runner.eclipse, state: [8], version: 10.2.3.20160715
+Bundle [574]: com.parasoft.xtest.scontrol.api, state: [8], version: 10.2.3.20160715
+Bundle [575]: com.parasoft.xtest.scope.api, state: [8], version: 10.2.3.20160715
+Bundle [576]: com.parasoft.xtest.services.api, state: [32], version: 10.2.3.20160715
+Bundle [577]: com.parasoft.xtest.share, state: [8], version: 10.2.3.20160715
+Bundle [578]: com.parasoft.xtest.share.api, state: [8], version: 10.2.3.20160715
+Bundle [579]: com.parasoft.xtest.suppressions, state: [8], version: 10.2.3.20160715
+Bundle [580]: com.parasoft.xtest.techsupport, state: [8], version: 10.2.3.20160715
+Bundle [581]: com.parasoft.xtest.testassist.api, state: [8], version: 10.2.3.20160715
+Bundle [582]: com.parasoft.xtest.testcases.api, state: [4], version: 10.2.3.20160715
+Bundle [583]: javanet.staxutils, state: [4], version: 1.0.0
+Bundle [584]: javax.mail, state: [4], version: 1.5.0
+Bundle [585]: org.apache.commons.io, state: [4], version: 1.4.0.v20081110-1000
+Bundle [586]: org.apache.commons.logging, state: [4], version: 1.1.3
+Bundle [587]: org.apache.jcs, state: [4], version: 1.3.4
+Bundle [588]: org.codehaus.stax2, state: [4], version: 3.2.4
+Bundle [589]: org.json, state: [4], version: 1.0.0.v201507290100
+Bundle [590]: com.parasoft.xtest.build.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [591]: com.parasoft.xtest.checkers.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [592]: com.parasoft.xtest.checkers.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [593]: com.parasoft.xtest.checkers.eclipse.ui, state: [8], version: 9.5.21.20150129
+Bundle [594]: com.parasoft.xtest.checkers.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [595]: com.parasoft.xtest.codegen.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [596]: com.parasoft.xtest.codegen.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [597]: com.parasoft.xtest.codereview.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [598]: com.parasoft.xtest.codereview.eclipse.ui, state: [8], version: 9.5.21.20150129
+Bundle [599]: com.parasoft.xtest.codereview.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [600]: com.parasoft.xtest.common.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [601]: com.parasoft.xtest.common.eclipse.core.java, state: [8], version: 9.5.14.20150430
+Bundle [602]: com.parasoft.xtest.common.eclipse.core.macosx.x86, state: [4], version: 9.5.11.20130826
+Bundle [603]: com.parasoft.xtest.common.eclipse.ui, state: [8], version: 9.5.21.20150129
+Bundle [604]: com.parasoft.xtest.common.eclipse.ui.ext35, state: [4], version: 9.5.19.20141003
+Bundle [605]: com.parasoft.xtest.common.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [606]: com.parasoft.xtest.communicator.eclipse.core, state: [8], version: 9.5.0.20120921
+Bundle [607]: com.parasoft.xtest.coverage.eclipse.core, state: [8], version: 9.5.0.20120921
+Bundle [608]: com.parasoft.xtest.coverage.eclipse.core.java, state: [8], version: 9.5.8.20131028
+Bundle [609]: com.parasoft.xtest.coverage.eclipse.ui, state: [8], version: 9.5.21.20150129
+Bundle [610]: com.parasoft.xtest.datasource.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [611]: com.parasoft.xtest.datasource.eclipse.ui, state: [8], version: 9.5.21.20150129
+Bundle [612]: com.parasoft.xtest.db.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [613]: com.parasoft.xtest.db.eclipse.core.java, state: [8], version: 9.5.9.20131230
+Bundle [614]: com.parasoft.xtest.dbc.eclipse.core.java, state: [8], version: 9.5.4.20130311
+Bundle [615]: com.parasoft.xtest.dbc.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [616]: com.parasoft.xtest.dupcodeanalysis.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [617]: com.parasoft.xtest.dupcodeanalysis.eclipse.core.java, state: [8], version: 9.5.12.20140707
+Bundle [618]: com.parasoft.xtest.dupcodeanalysis.eclipse.ui, state: [8], version: 9.5.7.20130415
+Bundle [619]: com.parasoft.xtest.dupcodeanalysis.eclipse.ui.java, state: [8], version: 9.5.0.20120924
+Bundle [620]: com.parasoft.xtest.execution.eclipse.core, state: [8], version: 9.5.7.20130415
+Bundle [621]: com.parasoft.xtest.execution.eclipse.core.container.java, state: [8], version: 9.5.12.20140707
+Bundle [622]: com.parasoft.xtest.execution.eclipse.core.java, state: [8], version: 9.5.12.20140707
+Bundle [623]: com.parasoft.xtest.execution.eclipse.core.junit.java, state: [4], version: 9.5.8.20131028
+Bundle [624]: com.parasoft.xtest.execution.eclipse.core.pde.java, state: [4], version: 9.5.0.20120924
+Bundle [625]: com.parasoft.xtest.execution.eclipse.ui, state: [8], version: 9.5.15.20140212
+Bundle [626]: com.parasoft.xtest.execution.eclipse.ui.container.java, state: [8], version: 9.5.0.20120924
+Bundle [627]: com.parasoft.xtest.execution.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [628]: com.parasoft.xtest.flowanalysis.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [629]: com.parasoft.xtest.flowanalysis.eclipse.core.java, state: [8], version: 9.5.12.20140707
+Bundle [630]: com.parasoft.xtest.flowanalysis.eclipse.ui.java, state: [8], version: 9.5.0.20120924
+Bundle [631]: com.parasoft.xtest.grs.client.eclipse.ui, state: [8], version: 9.5.7.20130415
+Bundle [632]: com.parasoft.xtest.insure.eclipse.core, state: [4], version: 9.5.21.20150129
+Bundle [633]: com.parasoft.xtest.insure.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [634]: com.parasoft.xtest.insure.eclipse.ui, state: [4], version: 9.5.14.20131210
+Bundle [635]: com.parasoft.xtest.insure.eclipse.ui.java, state: [8], version: 9.5.4.20130311
+Bundle [636]: com.parasoft.xtest.jdk.eclipse.core, state: [8], version: 9.5.0.20120921
+Bundle [637]: com.parasoft.xtest.jtest, state: [8], version: 9.5.14.20150430
+Bundle [638]: com.parasoft.xtest.language.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [639]: com.parasoft.xtest.language.eclipse.ui, state: [8], version: 9.5.0.20120921
+Bundle [640]: com.parasoft.xtest.language.eclipse.ui.java, state: [8], version: 9.5.0.20120924
+Bundle [641]: com.parasoft.xtest.libs, state: [4], version: 9.5.0.20120921
+Bundle [642]: com.parasoft.xtest.libs.base, state: [4], version: 9.5.21.20150129
+Bundle [643]: com.parasoft.xtest.libs.java, state: [4], version: 9.5.8.20131028
+Bundle [644]: com.parasoft.xtest.libs.jdbc, state: [8], version: 9.5.11.20130826
+Bundle [645]: com.parasoft.xtest.libs.soap, state: [4], version: 9.5.0.20120921
+Bundle [646]: com.parasoft.xtest.libs.sp, state: [4], version: 9.5.21.20150129
+Bundle [647]: com.parasoft.xtest.lic.client.eclipse.ui, state: [8], version: 9.5.7.20130415
+Bundle [648]: com.parasoft.xtest.logging.eclipse.core, state: [8], version: 9.5.0.20120921
+Bundle [649]: com.parasoft.xtest.maven.eclipse.core, state: [8], version: 9.5.4.20130311
+Bundle [650]: com.parasoft.xtest.metrics.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [651]: com.parasoft.xtest.metrics.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [652]: com.parasoft.xtest.metrics.eclipse.ui, state: [8], version: 9.5.7.20130415
+Bundle [653]: com.parasoft.xtest.metrics.eclipse.ui.java, state: [8], version: 9.5.0.20120924
+Bundle [654]: com.parasoft.xtest.objectsrepository.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [655]: com.parasoft.xtest.objectsrepository.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [656]: com.parasoft.xtest.objectsrepository.eclipse.ui, state: [8], version: 9.5.21.20150129
+Bundle [657]: com.parasoft.xtest.objectsrepository.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [658]: com.parasoft.xtest.parser.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [659]: com.parasoft.xtest.parser.eclipse.core.java.jdk7, state: [8], version: 9.5.0.20120924
+Bundle [660]: com.parasoft.xtest.parser.jsp.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [661]: com.parasoft.xtest.parser.jsp.libs.eclipse.core.java, state: [8], version: 9.5.0.20120924
+Bundle [662]: com.parasoft.xtest.repository.eclipse.core, state: [4], version: 9.5.0.20120921
+Bundle [663]: com.parasoft.xtest.results.eclipse.core, state: [8], version: 9.5.20.20141126
+Bundle [664]: com.parasoft.xtest.results.eclipse.ui, state: [8], version: 9.5.21.20150129
+Bundle [665]: com.parasoft.xtest.rulewizard.eclipse.core, state: [8], version: 9.5.16.20140326
+Bundle [666]: com.parasoft.xtest.rulewizard.eclipse.ui, state: [8], version: 9.5.21.20150129
+Bundle [667]: com.parasoft.xtest.run.configurations.eclipse.core.java, state: [8], version: 9.5.5.20130515
+Bundle [668]: com.parasoft.xtest.runner.eclipse.ui.java, state: [4], version: 9.5.0.20120924
+Bundle [669]: com.parasoft.xtest.runner.junit4.eclipse.ui.java.jdk15, state: [4], version: 9.5.9.20131230
+Bundle [670]: com.parasoft.xtest.scripting.eclipse.core, state: [8], version: 9.5.0.20120921
+Bundle [671]: com.parasoft.xtest.sourcecontrol.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [672]: com.parasoft.xtest.sourcecontrol.eclipse.core.tfs, state: [4], version: 9.5.21.20150129
+Bundle [673]: com.parasoft.xtest.standards.eclipse.core, state: [8], version: 9.5.0.20120921
+Bundle [674]: com.parasoft.xtest.standards.eclipse.core.java, state: [8], version: 9.5.12.20140707
+Bundle [675]: com.parasoft.xtest.standards.eclipse.ui, state: [8], version: 9.5.0.20120921
+Bundle [676]: com.parasoft.xtest.standards.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [677]: com.parasoft.xtest.suppressions.eclipse.core, state: [8], version: 9.5.0.20120921
+Bundle [678]: com.parasoft.xtest.suppressions.eclipse.ui, state: [8], version: 9.5.16.20140326
+Bundle [679]: com.parasoft.xtest.tasks.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [680]: com.parasoft.xtest.tasks.eclipse.core.java, state: [4], version: 9.5.0.20120924
+Bundle [681]: com.parasoft.xtest.tasks.eclipse.ui, state: [8], version: 9.5.7.20130415
+Bundle [682]: com.parasoft.xtest.tasks.eclipse.ui.java, state: [8], version: 9.5.2.20130107
+Bundle [683]: com.parasoft.xtest.tcm.client.eclipse.ui, state: [8], version: 9.5.21.20150129
+Bundle [684]: com.parasoft.xtest.techsupport.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [685]: com.parasoft.xtest.techsupport.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [686]: com.parasoft.xtest.techsupport.eclipse.ui, state: [8], version: 9.5.0.20120921
+Bundle [687]: com.parasoft.xtest.test, state: [4], version: 9.5.21.20150129
+Bundle [688]: com.parasoft.xtest.testcaseeditor.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [689]: com.parasoft.xtest.testcaseeditor.eclipse.core.java, state: [8], version: 9.5.0.20120924
+Bundle [690]: com.parasoft.xtest.testcaseeditor.eclipse.ui, state: [8], version: 9.5.0.20120921
+Bundle [691]: com.parasoft.xtest.testcaseeditor.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [692]: com.parasoft.xtest.testcases.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [693]: com.parasoft.xtest.testcases.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [694]: com.parasoft.xtest.testcases.eclipse.ui, state: [8], version: 9.5.7.20130415
+Bundle [695]: com.parasoft.xtest.testcases.eclipse.ui.java, state: [8], version: 9.5.0.20120924
+Bundle [696]: com.parasoft.xtest.testgen.eclipse.core, state: [8], version: 9.5.21.20150129
+Bundle [697]: com.parasoft.xtest.testgen.eclipse.core.java, state: [8], version: 9.5.12.20140707
+Bundle [698]: com.parasoft.xtest.testgen.eclipse.core.java.macosx.x86, state: [4], version: 9.5.14.20150430
+Bundle [699]: com.parasoft.xtest.testgen.eclipse.ui, state: [8], version: 9.5.0.20120921
+Bundle [700]: com.parasoft.xtest.testgen.eclipse.ui.java, state: [8], version: 9.5.12.20140707
+Bundle [701]: com.parasoft.xtest.webdemo.eclipse.core.java, state: [8], version: 9.5.11.20140428
+Bundle [702]: com.parasoft.xtest.webdemo.eclipse.ui.java, state: [8], version: 9.5.11.20140428
+Bundle [703]: com.parasoft.xtest.welcome.eclipse.ui.java, state: [8], version: 9.5.0.20120924
+Bundle [704]: com.quantum.Quantum, state: [8], version: 3.3.10
+Bundle [705]: com.quantum.beanshell, state: [4], version: 3.3.10
+Bundle [706]: com.quantum.dbunit, state: [8], version: 3.3.10
+Bundle [707]: com.quantum.derby, state: [4], version: 3.3.10
+Bundle [708]: com.quantum.erd, state: [8], version: 3.3.10
+Bundle [709]: com.quantum.flatfiles, state: [8], version: 3.3.10
+Bundle [710]: com.quantum.help, state: [8], version: 3.3.10
+Bundle [711]: com.quantum.log, state: [8], version: 3.3.10
+
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.lic.client.internal.service.LicenseService@2ec3a3d6
+CONTEXT: com.parasoft.xtest.common.ui.application.UIServiceContext@51a4fbad
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    _global.user.name=viknagar
+    _preferences.version=1
+    _use.default.user.name=true
+    console.activate.on.text=true
+    console.verbosity.level=low
+    custom.engine.args=-Ddata.dir=${scope} -Dconfig=${config} -Dsettings=${settings}
+    dtp.port=8443
+    dtp.user=viknagar
+    jtest.license.enabled=true
+    jtest.license.network.edition=desktop_edition
+    jtest.license.network.type=ls
+    jtest.license.use_network=true
+    license.start_deactivated=false
+    local.storage.dir=/Users/viknagar/Vikram/Learning/workspace/.metadata/.plugins/com.parasoft.xtest.common.eclipse
+
+DIAGNOSTICS INFO:
+Registered license definition providers:
+    com.parasoft.jtest.common.license.JtestLicenseDefinitionProvider
+
+License requirements statuses:
++ ------------------------- + ------------- +
+| Requirement               | Enabled/Limit |
++ ------------------------- + ------------- +
+| Max-Testables-Value       | -1            |
+| Max-Parallel-Jobs-Value   | 1             |
+| Bug-Detective             | false         |
+| Embedded-Testing          | false         |
+| Code-Review               | false         |
+| Security                  | false         |
+| Parameterization          | false         |
+| Unit-Testing              | false         |
+| Application-Monitoring    | false         |
+| Rule-Wizard               | false         |
+| Coverage                  | false         |
+| Sniffer                   | false         |
+| Command-Line-Execution    | false         |
+| Runtime-Error-Detection   | false         |
+| Team-Share-Results-Upload | false         |
+| Native-Tests-Import       | false         |
+| Coding-Standards          | false         |
+| Main                      | false         |
+| Source-Control            | true          |
+| Concerto-Access           | true          |
+| Enforce-Max-Errors        | true          |
+| XML-Report-Generation     | true          |
+| Email-Reports             | true          |
+| Team-Share-Edit           | true          |
+| Team-Share-Access         | true          |
++ ------------------------- + ------------- +
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.common.dtp.DtpServiceRegistry@6fc1d358
+CONTEXT: com.parasoft.xtest.common.ui.application.UIServiceContext@51a4fbad
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    (Empty)
+
+DIAGNOSTICS INFO:
+Connection settings: 
+    User: viknagar
+    Password: 
+    Project: 
+    Server: 
+    Port: 8443
+
+Available services: 
+
+
+================================================================================================
+SERVICE: com.parasoft.xtest.techsupport.TechSupportService@1215982f
+CONTEXT: com.parasoft.xtest.common.ui.application.UIServiceContext@51a4fbad
+LICENSE ENABLED: 
+================================================================================================
+LOCAL SETTINGS:
+    logging.scontrol.verbose=
+    techsupport.archive.location=
+    techsupport.create.on.exit=
+    techsupport.enabled=
+    techsupport.include.reports=
+
+DIAGNOSTICS INFO:
+Preferences class: com.parasoft.xtest.techsupport.internal.preferences.TechSupportPreferences
+Current packages dir: /Users/viknagar/Vikram/Learning/workspace/.metadata/.plugins/com.parasoft.xtest.common.eclipse/com.parasoft.xtest.techsupport
+Total registered items: 8
+   com.parasoft.xtest.common.eclipse.techsupport.EclipseEnvironmentTechSupportItem, key: null
+   com.parasoft.xtest.reports.internal.ReportsTechSupportItem, name: Report files, key: techsupport.include.reports
+   com.parasoft.xtest.techsupport.internal.EnvironmentTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LogsTechSupportItem, name: Source control output, key: logging.scontrol.verbose
+   com.parasoft.xtest.techsupport.internal.DiagnosticsTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.ConsoleTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.LicenseTechSupportItem, key: null
+   com.parasoft.xtest.techsupport.internal.TestConfigurationTechSupportItem, key: null
+

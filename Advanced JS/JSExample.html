@@ -1,0 +1,98 @@
+<!-- JAVASCRIPT -->
+<!-- 
+This File talks about 
+    1. Execution Context
+    2. Variable Scopes
+    3. Click Handlers
+    4. Dynamic and Static Typing
+    5. Object Creation
+    6. First class functions
+    7. IIFE - Immediately Invoked Function Expression
+-->
+<script>
+    // Scope and Hoisting
+    var a;
+    console.log(a); // At this time 'a' is undefined. But on commenting 'var a;' you get reference error !!!
+    
+    // Javascript behaves single threaded
+    // One line of code is executed in order
+    
+    // Function invocation and execution stack
+    /*
+        JS executes in Global Execution context and for each function execution a new execution stack is create.
+        function a(){
+            var myvar; // In the context of a (a execution stack)
+        }
+        function b(){
+            var myvar = 1; // In the context of b
+        } 
+        var myvar = 2; // In global context
+        
+    */
+    
+    
+    function a(){
+        function b(){
+            console.log(myvar); // This will be 1
+        }
+        var myvar = 1;
+    }
+    var myvar = 2;
+    a();    
+    
+    /*
+        This adds click handler to the document and this is at the document level or it can be at element level
+    */
+    document.addEventListener('click', function(){
+        window.alert("You clicked");
+    });
+    
+    //window.alert(4>3); // true
+    
+    //window.alert(1+'2'); // This will be concatination
+    
+    //window.alert(3 == "3"); // Will be true - there is no strict checking
+    
+    //window.alert(3 === "3"); // This will be false;
+    
+    undefined || "something" ; // Will return something
+    null || "something"; // will return something
+    "" || "something"; // will still return something
+    
+    
+    document.getElementById("testClick").addEventListener('click', function(){
+        window.alert("You clicked Div"); 
+    });
+    
+    // Javascript is dynamic typing and not static
+    // boolean isVar = true; // Static typing and not supported in JS
+    // var isVar = true; or isVar = 1; or isVar = 3; // Dynamic typing and happily supported in JS
+        
+    // Object creation
+    var myObj = new Object();
+    myObj["name"] = "Vikram";
+    myObj.dob = "Aug";
+    window.alert(myObj.dob);
+    
+    try {
+        adddlert("Welcome guest!");
+    }
+    catch(err) {
+        document.getElementById("demo").innerHTML = err.message;
+    }
+    
+    /*
+    In JavaScript, functions are first-class objects, because they can have properties and methods just like any other object. What distinguishes them from other objects is that functions can be called
+    */
+    
+    // IIFE
+    (function(){
+        console.log("Immediatley innvoked ");
+    })();
+    
+</script>
+
+<html>
+    <div id="testClick">Click Me :D</div>
+    
+</html>
