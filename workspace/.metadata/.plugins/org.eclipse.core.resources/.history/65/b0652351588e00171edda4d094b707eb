@@ -1,0 +1,16 @@
+https://www.youtube.com/watch?v=Hysb7hXp8B0&list=PLd3UqWTnYXOlHj_fVVjUIVHjD5uEy2kk4
+
+Multi-Tasking
+
+1. Executing multiple tasks in a given time
+
+
+Process Based Multi-Tasking
+	-Executing several tasks simultaneously. Where each task is procress
+	- IDE, Listening to Music etc
+Thread Based Multi-Tasking 
+	- Threads
+	
+Advantage - 
+	- To increase Performance
+	- To reduce idle time / response time of system

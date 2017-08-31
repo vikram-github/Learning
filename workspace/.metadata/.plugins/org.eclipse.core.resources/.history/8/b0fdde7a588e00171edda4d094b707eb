@@ -1,0 +1,9 @@
+package com.vikram.multithreading;
+
+public class SimpleThreadExample {
+
+	public static void main(String[] args) {
+		Thread t = new Thread();
+		t.start();
+	}
+}

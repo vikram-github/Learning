@@ -1,0 +1,17 @@
+package com.vikram.multithreading;
+
+public class SimpleThreadExample {
+	
+	class MyThread extends Thread {
+		@Override
+		public void run() {
+			System.out.println("Do something");
+		}
+	}
+
+	public static void main(String[] args) {
+		MyThread t = new SimpleThreadExample().new MyThread();
+		t.start();
+		
+	}
+}
