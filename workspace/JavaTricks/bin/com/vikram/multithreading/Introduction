@@ -16,3 +16,11 @@ Advantage -
 	- To reduce idle time / response time of system
 	
 Java Program will have only one thread but internally it might have daemon threads
+
+If multiple threads are there which threads will execute will be taken care by the thread scheduler. And this depends on the JVM
+
+Invoking run method will not trigger threads
+
+start() is responsible for registering the thread with thread scheduler and invokes run()
+
+Invoking start() multiple times will lead to IllegalThreadStateException

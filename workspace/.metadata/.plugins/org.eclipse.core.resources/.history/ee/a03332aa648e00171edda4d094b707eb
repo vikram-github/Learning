@@ -1,0 +1,12 @@
+package com.vikram.inheritance;
+
+public class InheritanceTest {
+
+	class A {
+		void m1();
+	}
+	
+	class B extends A {
+		void m1();
+	}
+}

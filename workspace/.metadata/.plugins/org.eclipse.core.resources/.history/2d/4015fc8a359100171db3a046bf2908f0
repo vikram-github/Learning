@@ -1,0 +1,21 @@
+
+public class VariableArgsTest {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+	public static void test(String...strings){
+		for (int i = 0; i < strings.length; i++) {
+			StringBuilder queryBuilder = new StringBuilder();
+	        queryBuilder.append(SELECT_EVENT_CONFIG);
+	        queryBuilder.append(" TYPE IN (");
+	        for (int i = 0; i < type.length; i++) {
+	            queryBuilder.append(type[i]);
+	            queryBuilder.append(",");
+	        }
+	        queryBuilder.replace(queryBuilder.length()-1, queryBuilder.length()-1, ")");
+		}
+	}
+}

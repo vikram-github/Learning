@@ -1,0 +1,13 @@
+package com.vikram.overloading_overriding;
+
+public class Animal {
+
+	
+	public void eat(){
+		
+	}
+	
+	public void eat(String params){
+		
+	}
+}

@@ -4,4 +4,11 @@
 <fullyQualifiedTypeName name="BinarySearchTree"/>
 <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
 <fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="com.vikram.multithreading.SimpleThreadExample"/>
+<fullyQualifiedTypeName name="com.vikram.multithreading.SimpleThreadExample.MyThread"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="com.vikram.multithreading.SimpleRunnableThread"/>
+<fullyQualifiedTypeName name="com.vikram.multithreading.SimpleRunnableThread.RunnableThread"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

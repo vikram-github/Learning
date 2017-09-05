@@ -1,0 +1,36 @@
+package com.vikram.multithreading;
+
+public class SimpleRunnableThread {
+
+	class RunnableThread implements Runnable {
+		@Override
+		public void run() {
+			
+			try {
+				System.out.println("Child Thread");
+				Thread.sleep(100L);
+				System.out.println("Child Thread done");
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		Thread myThread = new Thread(new SimpleRunnableThread().new RunnableThread());
+		myThread.setName("1");
+		myThread.start();
+//		myThread.start();
+//		myThread.start();
+		Thread myThread1 = new Thread(new SimpleRunnableThread().new RunnableThread());
+		myThread1.setName("2");
+		myThread1.start();
+		Thread myThread2 = new Thread(new SimpleRunnableThread().new RunnableThread());
+		myThread2.setName("3");
+		myThread2.start();
+		Thread myThread3 = new Thread(new SimpleRunnableThread().new RunnableThread());
+		myThread3.setName("4");
+		myThread3.start();
+	}
+}

@@ -1,0 +1,33 @@
+package com.vikram.overloading_overriding;
+
+public class Animal {
+
+	
+	public void eat(){
+		
+	}
+	
+	public void eat(String params){
+		
+	}
+	
+//	public void eat(String pa) throws Exception{
+//		
+//	}
+}
+
+
+class Dog extends Animal {
+	
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		super.eat();
+	}
+	
+	@Override
+	public void eat(String params) {
+		// TODO Auto-generated method stub
+		super.eat(params);
+	}
+}

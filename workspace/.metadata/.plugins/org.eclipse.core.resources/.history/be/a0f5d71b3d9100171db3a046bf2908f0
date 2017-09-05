@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class MapFunctionlaity {
+
+	public static void main(String[] args) {
+		List<SnortRestartEventModel> models = new ArrayList<>();
+	}
+	
+	public static SnortRestartEventModel getModel(int i){
+		SnortRestartEventModel model = new SnortRestartEventModel();
+		model.setId(i);
+		model.setTrafficIntVal(" VAL "+ i);
+	}
+}
